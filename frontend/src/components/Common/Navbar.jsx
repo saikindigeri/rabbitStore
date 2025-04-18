@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineUser, HiOutlineShoppingBag } from "react-icons/hi";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import SearchBar from "./Searchbar";
+import SearchBar from "./SearchBar";
 import CartDrawer from "../Layout/CartDrawer";
 import { IoMdClose } from "react-icons/io";
 import { useSelector } from "react-redux";

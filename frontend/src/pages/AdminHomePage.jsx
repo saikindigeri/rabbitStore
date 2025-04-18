@@ -71,7 +71,7 @@ const AdminHomePage = () => {
                 orders.map((order) => (
                   <tr
                     key={order._id}
-                    className="border-b hover:bg-gray-500 cursor-pointer"
+                    className="border-b hover:bg-gray-100 cursor-pointer"
                   >
                     <td className="p-4">{order._id} </td>
                     <td className="p-4">{order.user.name}</td>

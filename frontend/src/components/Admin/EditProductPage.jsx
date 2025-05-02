@@ -71,6 +71,7 @@ const EditProductPage = () => {
         ...prevData,
         images: [...prevData.images, { url: data.imageUrl, altText: "" }],
       }));
+      console.log(data.imageUrl);
       setUploading(false);
     } catch (error) {
       console.log("failed")
